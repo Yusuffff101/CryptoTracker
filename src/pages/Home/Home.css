@@ -31,18 +31,18 @@
 }
 
 .hero input {
-    background-color: aqua;
+    background-color: white;
     flex: 1;
     font-size: 16px;
     outline: none;
-    border: none;
+    border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
 }
 
 .hero button {
     border: none;
-    background: #7927ff;
+    background: #007bff;
     color: white;
     font-size: 16px;
     padding: 10px 20px;
