@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Light Mode */
+.light-mode {
+    background: linear-gradient(#ADB2D4, #C7D9DD, #D5E5D5); /* Light gradient */
+    color: #212529; /* Dark text for readability */
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: linear-gradient(#1A1A1D, #3B1C32, #1A1A1D); /* Dark gradient */
+    color: white;
+}
+
+/* Smooth transition for theme change */
+.app {
+    min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+}

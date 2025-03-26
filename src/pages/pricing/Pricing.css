@@ -1,0 +1,80 @@
+.pricing-container {
+    text-align: center;
+    padding: 50px 10%;
+    background: linear-gradient(#ADB2D4, #C7D9DD, #D5E5D5);
+    color: #212529;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode .pricing-container {
+    background: linear-gradient(#1A1A1D, #3B1C32, #1A1A1D);
+    color: #ddd;
+}
+
+/* Titles */
+.pricing-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.pricing-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Sections */
+.pricing-section {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.pricing-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.pricing-section p,
+.pricing-section ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.pricing-section ul {
+    padding-left: 20px;
+}
+
+.pricing-section li {
+    margin-bottom: 8px;
+}
+
+/* Button */
+.pricing-button-container {
+    margin-top: 30px;
+}
+
+.live-prices-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.live-prices-button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark Mode Button */
+.dark-mode .live-prices-button {
+    background-color: #3c3c3c; /* Matching your dark navbar */
+    color: #ddd;
+}
+
+.dark-mode .live-prices-button:hover {
+    background-color: #555;
+}

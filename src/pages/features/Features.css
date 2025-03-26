@@ -1,0 +1,61 @@
+.features-container {
+    text-align: center;
+    padding: 50px 10%;
+    min-height: 100vh;
+    background: linear-gradient(#ADB2D4, #C7D9DD, #D5E5D5);
+    color: #212529;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode .features-container {
+    background: linear-gradient(#1A1A1D, #3B1C32, #1A1A1D);
+    color: #ddd;
+}
+
+.features-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.features-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature-card {
+    background: white;
+    color: #212529;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+/* Dark Mode Cards */
+.dark-mode .feature-card {
+    background: #222;
+    color: #ddd;
+}
+
+.feature-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Hover Effect */
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
